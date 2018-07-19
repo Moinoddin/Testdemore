@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="2" name="TestSuite" time="278.623" errors="0" skipped="4">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="crmpro1"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="JENKINS_HOME" value="C:\Users\Mainuddin\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="da8516acf37a426a"/>
+    <property name="POM_ARTIFACTID" value="CrmProject"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Users\Mainuddin\JAVA\lib\resources.jar;C:\Users\Mainuddin\JAVA\lib\rt.jar;C:\Users\Mainuddin\JAVA\lib\sunrsasign.jar;C:\Users\Mainuddin\JAVA\lib\jsse.jar;C:\Users\Mainuddin\JAVA\lib\jce.jar;C:\Users\Mainuddin\JAVA\lib\charsets.jar;C:\Users\Mainuddin\JAVA\lib\jfr.jar;C:\Users\Mainuddin\JAVA\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="CrmProject"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\MAINUD~1\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="user.name" value="Mainuddin"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="crmpro1"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/crmpro1/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="sun.boot.library.path" value="C:\Users\Mainuddin\JAVA\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Mainuddin\AppData\Local"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="Mainuddin"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Users\Mainuddin\JAVA\lib\endorsed"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\Mainuddin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\crmproTest\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="ESET_OPTIONS" value="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Users\Mainuddin\JAVA"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/crmpro1/3/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\MAINUD~1\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/crmpro1/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\Mainuddin"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="MAINUDDIN-PC"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="com"/>
+    <property name="user.home" value="C:\Users\Mainuddin"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-crmpro1-3"/>
+    <property name="JENKINS_SERVER_COOKIE" value="da8516acf37a426a"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\Mainuddin"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Mainuddin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\crmproTest/bin;C:\ProgramData\Oracle\Java\javapath;C:\Users\Mainuddin\eclipse-workspace\geckodriver-master;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\Mainuddin\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\Mainuddin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\crmproTest"/>
+    <property name="java.class.path" value="C:\Users\Mainuddin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\Mainuddin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\crmproTest\boot\plexus-classworlds-2.5.2.jar;C:\Users\Mainuddin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\crmproTest/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Mainuddin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\crmproTest C:\Users\Mainuddin\.jenkins\war\WEB-INF\lib\remoting-3.23.jar C:\Users\Mainuddin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Mainuddin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 1550"/>
+    <property name="Path" value="C:\ProgramData\Oracle\Java\javapath;C:\Users\Mainuddin\eclipse-workspace\geckodriver-master;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 42 Stepping 7, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\Mainuddin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\crmproTest"/>
+    <property name="java.io.tmpdir" value="C:\Users\MAINUD~1\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Mainuddin\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\Mainuddin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\crmproTest/bin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Users\Mainuddin\JAVA\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\Mainuddin\eclipse-workspace\CrmProject"/>
+    <property name="javapath" value="C:\Program Files\Java\jdk1.7.0_79\bin;"/>
+    <property name="LOGONSERVER" value="\\MAINUDDIN-PC"/>
+    <property name="USERDOMAIN" value="Mainuddin-PC"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\Mainuddin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\crmproTest"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="PROCESSOR_REVISION" value="2a07"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users\Mainuddin\JENKINS"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\Mainuddin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\Mainuddin\.jenkins\workspace\crmpro1"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Mainuddin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase classname="ContactsPageTest" name="setUp" time="31.094">
+    <failure message="Element &lt;input class=&quot;btn btn-small&quot; type=&quot;submit&quot;&gt; is not clickable at point (1183.7417297363281,117) because another element &lt;div id=&quot;preloader&quot;&gt; obscures it
+Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;
+System info: host: &apos;MAINUDDIN-PC&apos;, ip: &apos;192.168.43.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3112, moz:profile: C:\Users\Mainuddin\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 92fadf7d-cf94-46c6-80e6-bf82bc10a6f0" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: Element &lt;input class=&quot;btn btn-small&quot; type=&quot;submit&quot;&gt; is not clickable at point (1183.7417297363281,117) because another element &lt;div id=&quot;preloader&quot;&gt; obscures it
+Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;
+System info: host: &apos;MAINUDDIN-PC&apos;, ip: &apos;192.168.43.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3112, moz:profile: C:\Users\Mainuddin\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 92fadf7d-cf94-46c6-80e6-bf82bc10a6f0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:368)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:380)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.Crmproject.PagesCrm.LoginPage.LoginVerify(LoginPage.java:49)
+	at ContactsPageTest.setUp(ContactsPageTest.java:39)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@19a06ac
+Before navigating to: &apos;https://www.crmpro.com/&apos;
+Navigated to:&apos;https://www.crmpro.com/&apos;
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type = &apos;submit&apos;]
+Found Element By : By.xpath: //input[@type = &apos;submit&apos;]
+Trying to click on: [[FirefoxDriver: firefox on XP (92fadf7d-cf94-46c6-80e6-bf82bc10a6f0)] -&gt; xpath: //input[@type = &apos;submit&apos;]]
+Exception occured: org.openqa.selenium.ElementClickInterceptedException: Element &lt;input class=&quot;btn btn-small&quot; type=&quot;submit&quot;&gt; is not clickable at point (1183.7417297363281,117) because another element &lt;div id=&quot;preloader&quot;&gt; obscures it
+Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;
+System info: host: &apos;MAINUDDIN-PC&apos;, ip: &apos;192.168.43.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3112, moz:profile: C:\Users\Mainuddin\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 92fadf7d-cf94-46c6-80e6-bf82bc10a6f0
+</system-out>
+    <system-err>1531893209367	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531893209396	geckodriver	INFO	Listening on 127.0.0.1:18770
+1531893210071	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\MAINUD~1\\AppData\\Local\\Temp\\rust_mozprofile.DrAyjsC2eVgC&quot;
+1531893222923	Marionette	INFO	Listening on port 1554
+1531893224002	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 18, 2018 11:23:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="ContactsPageTest" name="verifyContactsPageLabel" time="31.095">
+    <skipped/>
+  </testcase>
+  <testcase classname="ContactsPageTest" name="tearDown" time="31.095">
+    <skipped/>
+  </testcase>
+  <testcase classname="HomepageTest" name="setUp" time="61.716">
+    <failure message="Element &lt;input class=&quot;btn btn-small&quot; type=&quot;submit&quot;&gt; is not clickable at point (1183.7417297363281,117) because another element &lt;div id=&quot;preloader&quot;&gt; obscures it
+Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;
+System info: host: &apos;MAINUDDIN-PC&apos;, ip: &apos;192.168.43.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6524, moz:profile: C:\Users\Mainuddin\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8d2cd2a1-68e0-49ca-a4b6-f0c7d54975a1" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: Element &lt;input class=&quot;btn btn-small&quot; type=&quot;submit&quot;&gt; is not clickable at point (1183.7417297363281,117) because another element &lt;div id=&quot;preloader&quot;&gt; obscures it
+Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;
+System info: host: &apos;MAINUDDIN-PC&apos;, ip: &apos;192.168.43.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6524, moz:profile: C:\Users\Mainuddin\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8d2cd2a1-68e0-49ca-a4b6-f0c7d54975a1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:368)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:380)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.Crmproject.PagesCrm.LoginPage.LoginVerify(LoginPage.java:49)
+	at HomepageTest.setUp(HomepageTest.java:38)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.crmpro.com/&apos;
+Navigated to:&apos;https://www.crmpro.com/&apos;
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type = &apos;submit&apos;]
+Found Element By : By.xpath: //input[@type = &apos;submit&apos;]
+Trying to click on: [[FirefoxDriver: firefox on XP (8d2cd2a1-68e0-49ca-a4b6-f0c7d54975a1)] -&gt; xpath: //input[@type = &apos;submit&apos;]]
+Exception occured: org.openqa.selenium.ElementClickInterceptedException: Element &lt;input class=&quot;btn btn-small&quot; type=&quot;submit&quot;&gt; is not clickable at point (1183.7417297363281,117) because another element &lt;div id=&quot;preloader&quot;&gt; obscures it
+Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;
+System info: host: &apos;MAINUDDIN-PC&apos;, ip: &apos;192.168.43.118&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6524, moz:profile: C:\Users\Mainuddin\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8d2cd2a1-68e0-49ca-a4b6-f0c7d54975a1
+</system-out>
+    <system-err>1531893239276	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1531893239292	geckodriver	INFO	Listening on 127.0.0.1:47862
+1531893239725	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\MAINUD~1\\AppData\\Local\\Temp\\rust_mozprofile.LFYNkROdXUdJ&quot;
+[Parent 6524, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6524, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1531893254837	Marionette	INFO	Listening on port 1637
+1531893255672	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 18, 2018 11:24:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="HomepageTest" name="verifyHomePageTitleTest" time="61.716">
+    <skipped/>
+  </testcase>
+  <testcase classname="HomepageTest" name="tearDown" time="61.716">
+    <skipped/>
+  </testcase>
+  <testcase classname="LoginTest" name="loginTitleTest" time="0.191"/>
+</testsuite>

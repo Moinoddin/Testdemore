@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="ContactsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyContactsPageLabel"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ContactsPageTest -->
+      <class name="HomepageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- HomepageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
