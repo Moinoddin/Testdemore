@@ -7,7 +7,9 @@
         <methods>
           <include name="setUp"/>
           <include name="loginTestCrm"/>
+          <include name="loginTitleTest"/>
           <include name="tearDown"/>
+          <include name="loginPageImageTest"/>
         </methods>
       </class> <!-- LoginTest -->
     </classes>
