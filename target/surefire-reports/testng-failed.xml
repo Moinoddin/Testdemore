@@ -10,6 +10,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- ContactsPageTest -->
+      <class name="HomepageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- HomepageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
